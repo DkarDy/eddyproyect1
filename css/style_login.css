@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: aqua;
+}
+.container{
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.info{
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fm.facebook.com%2F406267536789492%2Fphotos%2F946863319396575%2F&psig=AOvVaw02Eg3EV3oO-BMK0TUvfVJ9&ust=1698274474878000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNi548fjj4IDFQAAAAAdAAAAABAE");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 50px;
+    width: 50%;
+}
+.txt-1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.info h2 {
+    color: #fff;
+    text-transform: uppercase   ;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.info hr{
+    width: 55px;
+    border: 4px solid #fff;
+    margin-left: 170px;
+    margin-bottom: 25px;
+}
+.txt-2{
+    color: #fff;
+    font-size: 18px;
+}
+.form{
+    padding: 150px 100px;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+}
+.form h2{
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+.form p{
+    font-size: 16px;
+    color: #c4c3c3;
+    margin-bottom: 25px;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    outline: none;
+    border-color: #097ef6;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    padding: 15px 35px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;    
+}
+.inputs a{
+    color: #097ef6;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+.submit{
+    background-color: #097ef6;
+    padding: 15px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 15px;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
